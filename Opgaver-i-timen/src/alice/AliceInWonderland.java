@@ -12,7 +12,9 @@ public class AliceInWonderland {
     public static void main(String[] args) {
 
         // Læs fra en fil:
-        File file = new File("alice.AliceInWonderland.txt");
+        String basePath = System.getProperty("user.dir");
+        System.out.println(basePath);
+        File file = new File(basePath + "/Opgaver-i-timen/AliceInWonderland.txt");
         long start = System.currentTimeMillis();
         try {
             Scanner scanner = new Scanner(file);
