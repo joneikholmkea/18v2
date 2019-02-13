@@ -1,3 +1,5 @@
+package alice;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
@@ -10,7 +12,7 @@ public class AliceInWonderland {
     public static void main(String[] args) {
 
         // Læs fra en fil:
-        File file = new File("AliceInWonderland.txt");
+        File file = new File("alice.AliceInWonderland.txt");
         long start = System.currentTimeMillis();
         try {
             Scanner scanner = new Scanner(file);

@@ -1,3 +1,4 @@
+package network1;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -9,7 +10,7 @@ public class Client {
     public static void main(String[] args) {
 
         try {
-            System.out.println("Client starter...");
+            System.out.println("network1.Client starter...");
             Socket socket = new Socket("localhost", 6780);
             System.out.println("Socket er oprettet");
             OutputStream outputStream = socket.getOutputStream();

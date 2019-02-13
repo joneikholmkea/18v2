@@ -1,9 +1,11 @@
+package network1;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Main {
+public class Server {
 
     public static void main(String[] args) {
 
@@ -11,7 +13,7 @@ public class Main {
             ServerSocket serverSocket = new ServerSocket(6780);
             System.out.println("Socket er oprettet");
             Socket socket = serverSocket.accept(); // afventer klient
-            System.out.println("Client er forbundet");
+            System.out.println("network1.Client er forbundet");
             InputStream inputStream = socket.getInputStream();
             byte[] bytes = new byte[4];
             inputStream.read(bytes);
