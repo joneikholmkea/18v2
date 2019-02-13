@@ -4,6 +4,7 @@
 # but include this
 !.gitignore
 !*.java
+!*.jar
 !*.html
 !*.txt
 !*.jpg
