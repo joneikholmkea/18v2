@@ -61,7 +61,7 @@ public class EightQueens {
     public static void printBoard(int[] board) {
         // PrintBoard functionality here
         for(int i=0; i<board.length;i++){
-            for (int j=0; j<board.length;j++){
+            for (int j=0; j<board.length;j++){ //count columns
                 if (board[i]==j)
                   System.out.print("|Q");
                 else
