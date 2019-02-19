@@ -1,7 +1,8 @@
 package threads;
 
-public class TreadDemo {
+public class ThreadDemo {
 
+    static int amountOfWorkDone = 0;
 
     public static void main(String[] args) {
         Worker1 worker1 = new Worker1();
