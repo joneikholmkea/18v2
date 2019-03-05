@@ -18,9 +18,9 @@ public class Worker2 implements Runnable{
 //                e.printStackTrace();
 //            }
             count++;
-            ThreadDemo.amountOfWorkDone = ThreadDemo.amountOfWorkDone + 1;
+          //  ThreadDemo.amountOfWorkDone = ThreadDemo.amountOfWorkDone + 1;
         }
         System.out.println("Worker 2 er i mål");
-        System.out.println("AmountOfWork :" + ThreadDemo.amountOfWorkDone);
+      //  System.out.println("AmountOfWork :" + ThreadDemo.amountOfWorkDone);
     }
 }

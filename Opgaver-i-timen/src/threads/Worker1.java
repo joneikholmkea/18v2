@@ -17,7 +17,7 @@ public class Worker1 implements Runnable {
 //                e.printStackTrace();
 //            }
             count++;
-            ThreadDemo.amountOfWorkDone = ThreadDemo.amountOfWorkDone + 1;
+          //  ThreadDemo.amountOfWorkDone = ThreadDemo.amountOfWorkDone + 1;
             try {
                 wait(); // dette betyder, den Monitor lock som denne tråd
                 // måtte have, bliver frigivet.
@@ -27,7 +27,7 @@ public class Worker1 implements Runnable {
             }
         }
         System.out.println("Worker 1 er i mål");
-        System.out.println("AmountOfWork :" + ThreadDemo.amountOfWorkDone);
+       // System.out.println("AmountOfWork :" + ThreadDemo.amountOfWorkDone);
 
     }
 

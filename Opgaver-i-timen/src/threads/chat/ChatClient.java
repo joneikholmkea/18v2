@@ -24,6 +24,9 @@ public class ChatClient {
                 dOut.writeBytes(scanner.nextLine() + "\n");
                 dOut.flush();
             }
+
+            // Send tekst til klient:
+
         } catch (IOException e) {
             e.printStackTrace();
         }
